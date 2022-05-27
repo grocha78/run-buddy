@@ -8,7 +8,6 @@ body {
     /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
-
 }
 
 /* apply styles to <header> */
@@ -24,7 +23,6 @@ header h1 {
     margin: 0;
     display: inline;
 }
-
 header a {
     text-decoration: none;
     color: #fce138;
@@ -84,13 +82,11 @@ section {
 /* Hero Style End */
 
 .hero-form {
+    border: 3px solid #024e76;
     background-color: #fce138;
     padding: 20px;
     width: 500px;
     color: #024e76;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #024e76;
     position: absolute;
     bottom: 120px;
     right: 140px;
@@ -100,7 +96,6 @@ section {
     font-size: 24px;
     margin: 0;
 }
-
 .hero-form p {
     margin: 5px 0 15px 0;
 }
@@ -126,24 +121,9 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
-/* Hero Styles End */
 
 .intro {
     text-align: center;
-}
-
-.intro h2 {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #fce138;
-}
-
-.intro h2 {
-    /* add this alongside your other declarations */
-    display: inline-block;
 }
 
 .intro p {
@@ -151,10 +131,6 @@ section {
     color: #39a6b2;
     width: 80%;
     font-size: 20px;
-}
-
-.intro p {
-    /* add this alongside your other declarations */
     margin: 0 auto;
 }
 
@@ -163,13 +139,27 @@ section {
     background: #fce138;
 }
 
-.steps h2 {
-    font-size: 55px;
+.steps div {
+    margin-bottom: 80px;
+}
+
+.steps img {
+    width: 15%;
+}
+
+.steps h3 {
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #39a6b2;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+}
+
+.steps span {
+    font-size: 38px;
 }
 
 .section-title {
@@ -187,40 +177,6 @@ section {
 
 .secondary-border {
     border-color: #39a6b2;
-}
-
-/* remove this entire CSS rule */
-.intro h2 {
-
-}
-
-/* and this one */
-.steps h2 {
-
-}
-
-.steps div {
-    margin-bottom: 80px;
-}
-
-.steps img {
-    width: 15%;
-    margin: 10px 0;
-}
-
-.steps h3 {
-    color: #024e76;
-    font-size: 46px;
-    margin-top: 10px
-}
-
-.steps p {
-    color: #39a6b2;
-    font-size: 23px;
-}
-
-.steps span {
-    font-size: 38px;
 }
 
 .trainers {
@@ -246,14 +202,6 @@ section {
     width: 65%;
 }
 
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
 .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
@@ -268,6 +216,14 @@ section {
 .trainer-bio p {
     font-size: 17px;
     line-height: 1.3;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
 }
 
 /* REACH OUT STYLES START */
@@ -299,7 +255,8 @@ section {
     font-size: 32px;
 }
 
-.contact-info p, .contact-info address {
+.contact-info p, 
+.contact-info address {
     margin: 20px 0;
     line-height: 1.5;
     font-size: 20px;
