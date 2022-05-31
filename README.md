@@ -14,3 +14,5 @@ https://grocha78.github.io/run-buddy/
 Made with ❤️ by Guadalupe Rocha
 
 ### ©️2019 Run Buddy, Inc
+
+
